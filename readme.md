@@ -3,7 +3,7 @@
 This is NOT a bulb you can easily replace with an ESP8266. A custom circuit board or hand wiring will need to be done, as well as modification of the LED disc itself.
 
 # IMPORTANT
---> make sure to copy both `SM2235.yaml` and `SM2235.h` <--
+--> make sure to copy both `SM2235.yaml` and `SM2235.h` to the 'esphome' configuration subdirectory <--
 
 ![image](https://esphome.io/_images/made-for-esphome-black-on-white.svg)
 # SM2235EGH based tuya lamps support for ESPHome
