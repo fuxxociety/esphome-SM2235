@@ -13,16 +13,22 @@ enum BP5758_COLOR_IDX : uint8_t {
 };
 
 /* Byte0 choice selections */
-enum SM2235_BYTE0 : uint8_t {
-  DEFAULT = 0b11000000,
-  SELECT_RGB = 0b1100100,
-  SELECT_CCW = 0b11010011,
-  SELECT_ALL = 0b11011000,
-  START_ADDRESS_OUT1 = 0b11011000,
-  START_ADDRESS_OUT2 = 0b11011001,
-  START_ADDRESS_OUT3 = 0b11011010,
-  START_ADDRESS_OUT4 = 0b11011011,
-  START_ADDRESS_OUT5 = 0b11011100,
+enum BYTE0_CHANNELSELECT : uint8_t {
+  DEFAULT = 0b00,
+  STANDBY = 0b00,
+  THREECHANNELS = 0b01,
+  TWOCHANNELS = 0b10,
+  FIVECHANNELS = 0b11,
+};
+
+/* Byte0 starting grayscale address */
+enum BYTE0_STARTADDR : uint8_t {
+  DEFAULT = 0b000,
+  OUT1 = 0b000, //(R lamp) grayscale data address
+  OUT2 = 0b001, //(G lamp) grayscale data address
+  OUT3 = 0b010, //(B lamp) grayscale data address
+  OUT4 = 0b011, //(C lamp) grayscale data address
+  OUT5 = 0b100, //(W lamp) grayscale data address
 };
 
 void set_channel(uint8_t data[], BP5758_COLOR_IDX byte_idx, float brightness) {
