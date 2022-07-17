@@ -1,0 +1,389 @@
+INFO Reading configuration /config/esphome/esphome-web-45cd6d.yaml...
+INFO Detected timezone 'America/Chicago'
+INFO Starting log output from testrgbcw.local using esphome API
+INFO Successfully connected to testrgbcw.local
+[03:05:03][I][app:102]: ESPHome version 2022.6.2 compiled on Jul 17 2022, 03:02:55
+[03:05:04][C][wifi:491]: WiFi:
+[03:05:04][C][wifi:353]:   Local MAC: 40:91:51:45:CD:6D
+[03:05:04][C][wifi:354]:   SSID: 'IOT-Home'[redacted]
+[03:05:04][C][wifi:355]:   IP Address: 10.10.90.183
+[03:05:04][C][wifi:356]:   BSSID: D6:21:F9:65:6F:6E[redacted]
+[03:05:04][C][wifi:358]:   Hostname: 'testrgbcw'
+[03:05:04][C][wifi:360]:   Signal strength: -66 dB ▂▄▆█
+[03:05:04][C][wifi:364]:   Channel: 11
+[03:05:04][C][wifi:365]:   Subnet: 255.255.255.0
+[03:05:04][C][wifi:366]:   Gateway: 10.10.90.1
+[03:05:04][C][wifi:367]:   DNS1: 10.10.100.35
+[03:05:04][C][wifi:368]:   DNS2: 10.10.24.2
+[03:05:04][C][logger:275]: Logger:
+[03:05:04][C][logger:276]:   Level: VERY_VERBOSE
+[03:05:04][C][logger:277]:   Log Baud Rate: 115200
+[03:05:04][C][logger:278]:   Hardware UART: UART0
+[03:05:04][C][i2c.arduino:038]: I2C Bus:
+[03:05:04][C][i2c.arduino:039]:   SDA Pin: GPIO5
+[03:05:04][C][i2c.arduino:040]:   SCL Pin: GPIO4
+[03:05:04][C][i2c.arduino:041]:   Frequency: 50000 Hz
+[03:05:04][C][i2c.arduino:044]:   Recovery: bus successfully recovered
+[03:05:04][C][sm2235:012]: SM2235:
+[03:05:04][C][sm2235:013]:   Channels: 5
+[03:05:04][C][light:104]: Light 'My Light'
+[03:05:04][C][light:106]:   Default Transition Length: 1.0s
+[03:05:04][C][light:107]:   Gamma Correct: 2.80
+[03:05:04][C][homeassistant.time:010]: Home Assistant Time:
+[03:05:04][C][homeassistant.time:011]:   Timezone: 'CST6CDT,M3.2.0,M11.1.0'
+[03:05:04][C][wifi_info:013]: WifiInfo Mac Address 'ESP Mac Wifi Address'
+[03:05:04][V][wifi_info:013]:   Unique ID: '40915145cd6d-wifiinfo-macadr'
+[03:05:04][C][mdns:084]: mDNS:
+[03:05:04][C][mdns:085]:   Hostname: testrgbcw
+[03:05:04][V][mdns:086]:   Services:
+[03:05:04][V][mdns:088]:   - _esphomelib, _tcp, 6053
+[03:05:04][V][mdns:090]:     TXT: version = 2022.6.2
+[03:05:04][V][mdns:090]:     TXT: mac = 40915145cd6d
+[03:05:04][V][mdns:090]:     TXT: platform = ESP8266
+[03:05:04][V][mdns:090]:     TXT: board = esp01_1m
+[03:05:04][C][ota:085]: Over-The-Air Updates:
+[03:05:04][C][ota:086]:   Address: testrgbcw.local:8266
+[03:05:04][C][ota:089]:   Using Password.
+[03:05:04][C][api:138]: API Server:
+[03:05:04][C][api:139]:   Address: testrgbcw.local:6053
+[03:05:04][C][api:143]:   Using noise encryption: NO
+[03:05:04][C][wifi_info:009]: WifiInfo IPAddress 'ESP IP Address'
+[03:05:04][V][wifi_info:009]:   Unique ID: '40915145cd6d-wifiinfo-ip'
+[03:05:04][C][wifi_info:011]: WifiInfo SSID 'ESP Connected SSID'
+[03:05:04][V][wifi_info:011]:   Unique ID: '40915145cd6d-wifiinfo-ssid'
+[03:05:04][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=62653 (now=63658)
+[03:05:04][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=62894 (now=63897)
+[03:05:05][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=63653 (now=64654)
+[03:05:05][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=63894 (now=64894)
+[03:05:06][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=64653 (now=65653)
+[03:05:06][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=64894 (now=65894)
+[03:05:07][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=65653 (now=66653)
+[03:05:07][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=65894 (now=66894)
+[03:05:08][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=66653 (now=67653)
+[03:05:08][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=66894 (now=67895)
+[03:05:09][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=67653 (now=68653)
+[03:05:09][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=67894 (now=68894)
+[03:05:10][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=68653 (now=69653)
+[03:05:10][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=68894 (now=69894)
+[03:05:11][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=69653 (now=70653)
+[03:05:11][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=69894 (now=70894)
+[03:05:12][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=70653 (now=71653)
+[03:05:12][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=70894 (now=71894)
+[03:05:12][VV][api.service:373]: on_ping_request: PingRequest {}
+[03:05:12][VV][api.service:043]: send_ping_response: PingResponse {}
+[03:05:13][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=71653 (now=72654)
+[03:05:13][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=71894 (now=72894)
+[03:05:14][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=72653 (now=73656)
+[03:05:14][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=72894 (now=73894)
+[03:05:15][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=73653 (now=74655)
+[03:05:15][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=73894 (now=74895)
+[03:05:16][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=74653 (now=75653)
+[03:05:16][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=74894 (now=75894)
+[03:05:17][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=75653 (now=76654)
+[03:05:17][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=75894 (now=76896)
+[03:05:18][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=76653 (now=77653)
+[03:05:18][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=76894 (now=77894)
+[03:05:18][VV][api.service:373]: on_ping_request: PingRequest {}
+[03:05:18][VV][api.service:043]: send_ping_response: PingResponse {}
+[03:05:19][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=77653 (now=78653)
+[03:05:19][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=77894 (now=78894)
+[03:05:20][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=78653 (now=79654)
+[03:05:20][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=78894 (now=79894)
+[03:05:21][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=79653 (now=80653)
+[03:05:21][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=79894 (now=80894)
+[03:05:22][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=80653 (now=81653)
+[03:05:22][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=80894 (now=81894)
+[03:05:23][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=81653 (now=82653)
+[03:05:23][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=81894 (now=82894)
+[03:05:24][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=82653 (now=83653)
+[03:05:24][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=82894 (now=83894)
+[03:05:25][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=83653 (now=84654)
+[03:05:25][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=83894 (now=84894)
+[03:05:26][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=84653 (now=85654)
+[03:05:26][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=84894 (now=85894)
+[03:05:27][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=85653 (now=86653)
+[03:05:27][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=85894 (now=86894)
+[03:05:27][VV][api.service:373]: on_ping_request: PingRequest {}
+[03:05:29][VV][api.service:043]: send_ping_response: PingResponse {}
+[03:05:29][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=86653 (now=87653)
+[03:05:29][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=86894 (now=87894)
+[03:05:29][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=87653 (now=88653)
+[03:05:29][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=87894 (now=88894)
+[03:05:30][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=88653 (now=89653)
+[03:05:30][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=88894 (now=89894)
+[03:05:31][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=89653 (now=90653)
+[03:05:31][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=89894 (now=90894)
+[03:05:32][VV][api.service:450]: on_light_command_request: LightCommandRequest {
+  key: 3436219630
+  has_state: YES
+  state: YES
+  has_brightness: NO
+  brightness: 0
+  has_color_mode: YES
+  color_mode: COLOR_MODE_RGB_COLD_WARM_WHITE
+  has_color_brightness: NO
+  color_brightness: 0
+  has_rgb: NO
+  red: 0
+  green: 0
+  blue: 0
+  has_white: NO
+  white: 0
+  has_color_temperature: NO
+  color_temperature: 0
+  has_cold_white: NO
+  cold_white: 0
+  has_warm_white: NO
+  warm_white: 0
+  has_t
+[03:05:32][D][light:035]: 'My Light' Setting:
+[03:05:32][D][light:046]:   State: ON
+[03:05:32][D][light:084]:   Transition length: 1.0s
+[03:05:32][VV][api.service:122]: send_light_state_response: LightStateResponse {
+  key: 3436219630
+  state: YES
+  brightness: 0.0588235
+  color_mode: COLOR_MODE_RGB_COLD_WARM_WHITE
+  color_brightness: 1
+  red: 1
+  green: 0
+  blue: 0
+  white: 1
+  color_temperature: 0
+  cold_white: 0
+  warm_white: 0
+  effect: ''
+}
+[03:05:32][V][component:199]: Component api took a long time for an operation (0.07 s).
+[03:05:32][V][component:200]: Components should block for at most 20-30ms.
+[03:05:32][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=90653 (now=91682)
+[03:05:32][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=90894 (now=91909)
+[03:05:32][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:32][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:32][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF0 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF1 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF2 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF3 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][i2c.arduino:126]: 0xF4 TX 240000
+[03:05:33][VV][i2c.arduino:150]: TX failed: not acknowledged
+[03:05:33][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=91653 (now=92659)
+[03:05:33][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=91894 (now=92894)
+[03:05:33][VV][api.service:373]: on_ping_request: PingRequest {}
+[03:05:33][VV][api.service:043]: send_ping_response: PingResponse {}
+[03:05:34][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=92653 (now=93653)
+[03:05:34][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=92894 (now=93894)
+[03:05:35][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=93653 (now=94653)
+[03:05:35][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=93894 (now=94894)
+[03:05:36][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=94653 (now=95653)
+[03:05:36][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=94894 (now=95894)
+[03:05:37][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=95653 (now=96653)
+[03:05:37][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=95894 (now=96894)
+[03:05:38][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=96653 (now=97653)
+[03:05:38][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=96894 (now=97894)
+[03:05:39][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=97653 (now=98653)
+[03:05:39][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=97894 (now=98894)
+[03:05:40][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=98653 (now=99653)
+[03:05:40][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=98894 (now=99894)
+[03:05:41][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=99653 (now=100653)
+[03:05:41][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=99894 (now=100894)
+[03:05:42][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=100653 (now=101653)
+[03:05:42][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=100894 (now=101894)
+[03:05:42][VV][api.service:373]: on_ping_request: PingRequest {}
+[03:05:44][VV][api.service:043]: send_ping_response: PingResponse {}
+[03:05:44][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=101653 (now=102653)
+[03:05:44][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=101894 (now=102894)
+[03:05:44][VV][scheduler:195]: Running interval '' with interval=60000 last_execution=42907 (now=102907)
+[03:05:44][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=102653 (now=103653)
+[03:05:44][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=102894 (now=103894)
+[03:05:45][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=103653 (now=104653)
+[03:05:45][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=103894 (now=104894)
+[03:05:46][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=104653 (now=105655)
+[03:05:46][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=104894 (now=105894)
+[03:05:47][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=105653 (now=106654)
+[03:05:47][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=105894 (now=106894)
+[03:05:48][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=106653 (now=107653)
+[03:05:48][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=106894 (now=107894)
+[03:05:48][VV][api.service:373]: on_ping_request: PingRequest {}
+[03:05:48][VV][api.service:043]: send_ping_response: PingResponse {}
+[03:05:49][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=107653 (now=108653)
+[03:05:49][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=107894 (now=108894)
+[03:05:50][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=108653 (now=109653)
+[03:05:50][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=108894 (now=109894)
+[03:05:51][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=109653 (now=110653)
+[03:05:51][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=109894 (now=110894)
+[03:05:52][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=110653 (now=111653)
+[03:05:52][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=110894 (now=111894)
+[03:05:53][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=111653 (now=112653)
+[03:05:53][VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=111894 (now=112894)
