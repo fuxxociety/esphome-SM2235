@@ -1,0 +1,818 @@
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-78
+wifi evt: 7
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-78
+wifi evt: 7
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=98:9D:5D:D4:BB:A9 RSSI=-71
+wifi evt: 7
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=5C:7D:7D:84:10:9B RSSI=-75
+wifi evt: 7
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-77
+wifi evt: 7
+           state: 2 -> 3 (0)
+                            state: 3 -> 0 (4)
+                                             [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Association Expired'
+wifi evt: 1
+           STA disconnect: 4
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=98:9D:5D:D4:BB:A9 RSSI=-70
+wifi evt: 7
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-82
+wifi evt: 7
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     [VV][scheduler:195]: Running interval '' with interval=60000 last_execution=168530 (now=228611)
+state: 2 -> 3 (0)
+                 state: 3 -> 5 (10)
+                                   add 0
+                                        aid 19
+                                              cnt
+
+                                                  connected with <REDACTED>, channel 6
+                                                                                    dhcp client start...
+                                                                                                        [V][wifi_esp8266:468]: Event: Connected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E channel=6
+wifi evt: 0
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=1C:5F:2B:F7:C7:5B RSSI=-80
+wifi evt: 7
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=A4:34:D9:9E:D4:B4 RSSI=-76
+wifi evt: 7
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=1C:5F:2B:F7:C7:5B RSSI=-73
+wifi evt: 7
+           [W][wifi:530]: Timeout while connecting to WiFi.
+[I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+state: 5 -> 0 (0)
+                 rm 0
+                     [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Association Leave'
+wifi evt: 1
+           STA disconnect: 8
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+scandone
+        del if0
+               mode : softAP(42:91:51:45:cd:6d)
+                                               [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=5C:7D:7D:84:10:9B RSSI=-80
+wifi evt: 7
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-81
+wifi evt: 7
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-80
+wifi evt: 7
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=1C:9E:CC:57:BA:BF RSSI=-87
+wifi evt: 7
+           [VV][scheduler:195]: Running interval '' with interval=60000 last_execution=228530 (now=288530)
+[I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-83
+wifi evt: 7
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=98:9D:5D:D4:BB:A9 RSSI=-69
+wifi evt: 7
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 0 (2)
+                                                      [W][wifi_esp8266:482]: Event: Disconnected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E reason='Auth Expired'
+wifi evt: 1
+           STA disconnect: 2
+                            [W][wifi:536]: Error while connecting to network.
+[W][wifi:572]: Restarting WiFi adapter...
+[V][wifi_esp8266:060]: Disabling STA.
+del if0
+       mode : softAP(42:91:51:45:cd:6d)
+                                       [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-78
+wifi evt: 7
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-78
+wifi evt: 7
+           [I][wifi:248]: WiFi Connecting to '<REDACTED>'...
+[V][wifi:250]: Connection Params:
+[V][wifi:251]:   SSID: '<REDACTED>'
+[V][wifi:256]:   BSSID: Not Set
+[V][wifi:274]:   Password: '<REDACTED>'
+[V][wifi:281]:   Channel: Not Set
+[V][wifi:288]:   Using DHCP IP
+[V][wifi:290]:   Hidden: NO
+[V][wifi_esp8266:058]: Enabling STA.
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+                                                         add if0
+                                                                [W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)
+[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA
+wifi evt: 8
+           [VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=98:9D:5D:D4:BB:A9 RSSI=-71
+wifi evt: 7
+           scandone
+                   state: 0 -> 2 (b0)
+                                     state: 2 -> 3 (0)
+                                                      state: 3 -> 5 (10)
+                                                                        add 0
+                                                                             aid 19
+                                                                                   cnt
+
+                                                                                       connected with <REDACTED>, channel 6
+  dhcp client start...
+                      [V][wifi_esp8266:468]: Event: Connected ssid='<REDACTED>' bssid=D6:21:F9:65:6F:6E channel=6
+wifi evt: 0
+           ip:10.10.90.176,mask:255.255.255.0,gw:10.10.90.1
+                                                           [V][wifi_esp8266:507]: Event: Got IP static_ip=10.10.90.176 gateway=10.10.90.1 netmask=255.255.255.0
+wifi evt: 3
+           [I][wifi:505]: WiFi Connected!
+[C][wifi:353]:   Local MAC: 40:91:51:45:CD:6D
+[C][wifi:354]:   SSID: '<REDACTED>'
+[C][wifi:355]:   IP Address: 10.10.90.176
+[C][wifi:356]:   BSSID: D6:21:F9:65:6F:6E
+[C][wifi:358]:   Hostname: 'testrgbcw'
+[C][wifi:360]:   Signal strength: -46 dB ▂▄▆█
+[C][wifi:364]:   Channel: 6
+[C][wifi:365]:   Subnet: 255.255.255.0
+[C][wifi:366]:   Gateway: 10.10.90.1
+[C][wifi:367]:   DNS1: 10.10.100.35
+[C][wifi:368]:   DNS2: 10.10.24.2
+[D][wifi:514]: Disabling AP...
+[V][wifi_esp8266:068]: Disabling AP.
+bcn 0
+     del if1
+            pm open,type:0 0
+                            mode : sta(40:91:51:45:cd:6d)
+                                                         [V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=STA
+wifi evt: 8
+           [C][ota:085]: Over-The-Air Updates:
+[C][ota:086]:   Address: testrgbcw.local:8266
+[C][ota:089]:   Using Password.
+[C][api:025]: Setting up Home Assistant API server...
+[VV][scheduler:057]: set_interval(name='update', interval=1000, offset=336)
+[VV][scheduler:057]: set_interval(name='update', interval=1000, offset=411)
+[I][app:062]: setup() finished successfully!
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=338628 (now=340052)
+[V][text_sensor:016]: 'ESP Connected SSID': Received new state <REDACTED>
+[D][text_sensor:067]: 'ESP Connected SSID': Sending state '<REDACTED>'
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=338696 (now=340052)
+[V][text_sensor:016]: 'ESP IP Address': Received new state 10.10.90.176
+[D][text_sensor:067]: 'ESP IP Address': Sending state '10.10.90.176'
+[I][ota:105]: Boot seems successful, resetting boot loop counter.
+[I][app:102]: ESPHome version 2022.6.2 compiled on Aug  2 2022, 12:11:11
+[C][wifi:491]: WiFi:
+[C][wifi:353]:   Local MAC: 40:91:51:45:CD:6D
+[C][wifi:354]:   SSID: '<REDACTED>'
+[C][wifi:355]:   IP Address: 10.10.90.176
+[C][wifi:356]:   BSSID: D6:21:F9:65:6F:6E
+[C][wifi:358]:   Hostname: 'testrgbcw'
+[C][wifi:360]:   Signal strength: -47 dB ▂▄▆█
+[C][wifi:364]:   Channel: 6
+[C][wifi:365]:   Subnet: 255.255.255.0
+[C][wifi:366]:   Gateway: 10.10.90.1
+[C][wifi:367]:   DNS1: 10.10.100.35
+[C][wifi:368]:   DNS2: 10.10.24.2
+[C][logger:275]: Logger:
+[C][logger:276]:   Level: VERY_VERBOSE
+[C][logger:277]:   Log Baud Rate: 115200
+[C][logger:278]:   Hardware UART: UART0
+[C][sm2235:018]: SM2235:
+[C][sm2235:019]:   Channels: 5
+[C][light:104]: Light 'My Light'
+[C][light:106]:   Default Transition Length: 1.0s
+[C][light:107]:   Gamma Correct: 2.80
+[C][homeassistant.time:010]: Home Assistant Time:
+[C][homeassistant.time:011]:   Timezone: 'CST6CDT,M3.2.0,M11.1.0'
+[C][wifi_info:013]: WifiInfo Mac Address 'ESP Mac Wifi Address'
+[V][wifi_info:013]:   Unique ID: '40915145cd6d-wifiinfo-macadr'
+[C][mdns:084]: mDNS:
+[C][mdns:085]:   Hostname: testrgbcw
+[V][mdns:086]:   Services:
+[V][mdns:088]:   - _esphomelib, _tcp, 6053
+[V][mdns:090]:     TXT: version = 2022.6.2
+[V][mdns:090]:     TXT: mac = 40915145cd6d
+[V][mdns:090]:     TXT: platform = ESP8266
+[V][mdns:090]:     TXT: board = esp01_1m
+[C][ota:085]: Over-The-Air Updates:
+[C][ota:086]:   Address: testrgbcw.local:8266
+[C][ota:089]:   Using Password.
+[C][api:138]: API Server:
+[C][api:139]:   Address: testrgbcw.local:6053
+[C][api:143]:   Using noise encryption: NO
+[C][wifi_info:009]: WifiInfo IPAddress 'ESP IP Address'
+[V][wifi_info:009]:   Unique ID: '40915145cd6d-wifiinfo-ip'
+[C][wifi_info:011]: WifiInfo SSID 'ESP Connected SSID'
+[V][wifi_info:011]:   Unique ID: '40915145cd6d-wifiinfo-ssid'
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=339628 (now=340635)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=339696 (now=340696)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=340628 (now=341628)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=340696 (now=341696)
+[D][api:102]: Accepted 10.10.90.10
+[VV][api.service:337]: on_hello_request: HelloRequest {
+                                                         client_info: 'Home Assistant 2022.7.6'
+                                                                                               }
+[V][api.connection:843]: Hello from client: 'Home Assistant 2022.7.6 (10.10.90.10)'
+[VV][api.service:013]: send_hello_response: HelloResponse {
+                                                             api_version_major: 1
+                                                                                   api_version_minor: 6
+                                                                                                         server_info: 'testrgbcw (esphome v2022.6.2)'
+                                name: 'testrgbcw'
+                                                 }
+[VV][api.service:346]: on_connect_request: ConnectRequest {
+                                                             password: ''
+                                                                         }
+[D][api.connection:861]: Home Assistant 2022.7.6 (10.10.90.10): Connected successfully
+[VV][api.service:197]: send_get_time_request: GetTimeRequest {}
+[VV][api.service:019]: send_connect_response: ConnectResponse {
+                                                                 invalid_password: NO
+                                                                                     }
+[VV][api.service:489]: on_get_time_response: GetTimeResponse {
+                                                                epoch_seconds: 1659460678
+                                                                                         }
+[VV][time:024]: Got epoch 1659460678
+[D][time:041]: Synchronized time: 2022-08-02 12:17:58
+[VV][api.service:391]: on_device_info_request: DeviceInfoRequest {}
+[VV][api.service:049]: send_device_info_response: DeviceInfoResponse {
+                                                                        uses_password: NO
+                                                                                           name: 'testrgbcw'
+                                                                                                              mac_address: '40:91:51:45:CD:6D'
+                         esphome_version: '2022.6.2'
+                                                      compilation_time: 'Aug  2 2022, 12:11:11'
+                                                                                                 model: 'esp01_1m'
+                                                                                                                    has_deep_sleep: NO
+                 project_name: ''
+                                   project_version: ''
+                                                        webserver_port: 0
+                                                                         }
+[VV][api.service:400]: on_list_entities_request: ListEntitiesRequest {}
+[VV][api.service:114]: send_list_entities_light_response: ListEntitiesLightResponse {
+                                                                                       object_id: 'my_light'
+                                                                                                              key: 3436219630
+        name: 'My Light'
+                          unique_id: 'testrgbcwlightmy_light'
+                                                               supported_color_modes: COLOR_MODE_RGB_COLD_WARM_WHITE
+                                                                                                                      legacy_supports_brightness: YES
+                                legacy_supports_rgb: YES
+                                                          legacy_supports_white_value: YES
+                                                                                            legacy_supports_color_temperature: YES
+             min_mireds: 0
+                            max_mireds: 0
+                                           disabled_by_default: NO
+                                                                    icon: ''
+                                                                              entity_category:
+[VV][api.service:166]: send_list_entities_text_sensor_response: ListEntitiesTextSensorResponse {
+                                                                                                  object_id: 'esp_ip_address'
+        key: 920115296
+                        name: 'ESP IP Address'
+                                                unique_id: '40915145cd6d-wifiinfo-ip'
+                                                                                       icon: ''
+                                                                                                 disabled_by_default: NO
+   entity_category: ENTITY_CATEGORY_DIAGNOSTIC
+                                              }
+[VV][api.service:166]: send_list_entities_text_sensor_response: ListEntitiesTextSensorResponse {
+                                                                                                  object_id: 'esp_connected_ssid'
+            key: 2065534755
+                             name: 'ESP Connected SSID'
+                                                         unique_id: '40915145cd6d-wifiinfo-ssid'
+                                                                                                  icon: ''
+                                                                                                            disabled_by_default: NO
+              entity_category: ENTITY_CATEGORY_DIAGNOSTIC
+                                                         }
+[VV][api.service:166]: send_list_entities_text_sensor_response: ListEntitiesTextSensorResponse {
+                                                                                                  object_id: 'esp_mac_wifi_address'
+              key: 3105591752
+                               name: 'ESP Mac Wifi Address'
+                                                             unique_id: '40915145cd6d-wifiinfo-macadr'
+                                                                                                        icon: ''
+                                                                                                                  disabled_by_default: NO
+                    entity_category: ENTITY_CATEGORY_DIAGNOSTIC
+                                                               }
+[VV][api.service:055]: send_list_entities_done_response: ListEntitiesDoneResponse {}
+[VV][api.service:409]: on_subscribe_states_request: SubscribeStatesRequest {}
+[VV][api.service:471]: on_subscribe_homeassistant_services_request: SubscribeHomeassistantServicesRequest {}
+[VV][api.service:122]: send_light_state_response: LightStateResponse {
+                                                                        key: 3436219630
+                                                                                         state: NO
+                                                                                                    brightness: 1
+                                                                                                                   color_mode: COLOR_MODE_RGB_COLD_WARM_WHITE
+                                        color_brightness: 1
+                                                             red: 1
+                                                                     green: 1
+                                                                               blue: 1
+                                                                                        white: 1
+                                                                                                  color_temperature: 0
+                                                                                                                        cold_white: 1
+                warm_white: 1
+                               effect: ''
+                                         }
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=341628 (now=342647)
+[VV][api.service:498]: on_subscribe_home_assistant_states_request: SubscribeHomeAssistantStatesRequest {}
+[VV][api.service:174]: send_text_sensor_state_response: TextSensorStateResponse {
+                                                                                   key: 920115296
+                                                                                                   state: '10.10.90.176'
+   missing_state: NO
+                    }
+[VV][api.service:174]: send_text_sensor_state_response: TextSensorStateResponse {
+                                                                                   key: 2065534755
+                                                                                                    state: '<REDACTED>'
+                                                                                                                       missing_state: NO
+                 }
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=341696 (now=342708)
+[VV][api.service:174]: send_text_sensor_state_response: TextSensorStateResponse {
+                                                                                   key: 3105591752
+                                                                                                    state: '40:91:51:45:CD:6D'
+         missing_state: NO
+                          }
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=342628 (now=343628)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=342696 (now=343696)
+...
+<SNIP> MESSAGE REPEATS
+...
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=876628 (now=877628)
+[VV][api.service:450]: on_light_command_request: LightCommandRequest {
+                                                                        key: 3436219630
+                                                                                         has_state: YES
+                                                                                                         state: YES
+                                                                                                                     has_brightness: NO
+                  brightness: 0
+                                 has_color_mode: YES
+                                                      color_mode: COLOR_MODE_RGB_COLD_WARM_WHITE
+                                                                                                  has_color_brightness: NO
+     color_brightness: 0
+                          has_rgb: NO
+                                       red: 0
+                                               green: 0
+                                                         blue: 0
+                                                                  has_white: NO
+                                                                                 white: 0
+                                                                                           has_color_temperature: NO
+                                                                                                                      color_temperature: 0
+                     has_cold_white: NO
+                                         cold_white: 0
+                                                        has_warm_white: NO
+                                                                            warm_white: 0
+                                                                                           has_t
+[D][light:035]: 'My Light' Setting:
+[D][light:046]:   State: ON
+[D][light:084]:   Transition length: 1.0s
+[VV][api.service:122]: send_light_state_response: LightStateResponse {
+                                                                        key: 3436219630
+                                                                                         state: YES
+                                                                                                     brightness: 1
+                                                                                                                    color_mode: COLOR_MODE_RGB_COLD_WARM_WHITE
+                                         color_brightness: 1
+                                                              red: 1
+                                                                      green: 1
+                                                                                blue: 1
+                                                                                         white: 1
+                                                                                                   color_temperature: 0
+                                                                                                                        cold_white: 1
+                warm_white: 1
+                               effect: ''
+                                         }
+[V][component:199]: Component api took a long time for an operation (0.07 s).
+[V][component:200]: Components should block for at most 20-30ms.
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=876696 (now=877740)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=877628 (now=878630)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=877696 (now=878698)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=878628 (now=879632)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=878696 (now=879696)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=879628 (now=880629)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=879696 (now=880698)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=880628 (now=881628)
+[VV][api.service:450]: on_light_command_request: LightCommandRequest {
+                                                                        key: 3436219630
+                                                                                         has_state: YES
+                                                                                                         state: NO
+                                                                                                                    has_brightness: NO
+                 brightness: 0
+                                has_color_mode: NO
+                                                    color_mode: COLOR_MODE_UNKNOWN
+                                                                                    has_color_brightness: NO
+                                                                                                              color_brightness: 0
+            has_rgb: NO
+                         red: 0
+                                 green: 0
+                                           blue: 0
+                                                    has_white: NO
+                                                                   white: 0
+                                                                             has_color_temperature: NO
+                                                                                                        color_temperature: 0
+       has_cold_white: NO
+                           cold_white: 0
+                                          has_warm_white: NO
+                                                              warm_white: 0
+                                                                             has_transition_leng
+[D][light:035]: 'My Light' Setting:
+[D][light:046]:   State: OFF
+[D][light:084]:   Transition length: 1.0s
+[VV][api.service:122]: send_light_state_response: LightStateResponse {
+                                                                        key: 3436219630
+                                                                                         state: NO
+                                                                                                    brightness: 1
+                                                                                                                   color_mode: COLOR_MODE_RGB_COLD_WARM_WHITE
+                                        color_brightness: 1
+                                                             red: 1
+                                                                     green: 1
+                                                                               blue: 1
+                                                                                        white: 1
+                                                                                                  color_temperature: 0
+                                                                                                                        cold_white: 1
+                warm_white: 1
+                               effect: ''
+                                         }
+[V][component:199]: Component api took a long time for an operation (0.07 s).
+[V][component:200]: Components should block for at most 20-30ms.
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=880696 (now=881739)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=881628 (now=882628)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=881696 (now=882696)
+[VV][api.service:373]: on_ping_request: PingRequest {}
+[VV][api.service:043]: send_ping_response: PingResponse {}
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=882628 (now=883628)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=882696 (now=883696)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=883628 (now=884632)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=883696 (now=884696)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=884628 (now=885630)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=884696 (now=885700)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=885628 (now=886628)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=885696 (now=886699)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=886628 (now=887629)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=886696 (now=887696)
+[VV][scheduler:195]: Running interval '' with interval=60000 last_execution=828530 (now=888530)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=887628 (now=888628)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=887696 (now=888696)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=888628 (now=889628)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=888696 (now=889696)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=889628 (now=890628)
+[VV][scheduler:195]: Running interval 'update' with interval=1000 last_execution=889696 (now=890697)
