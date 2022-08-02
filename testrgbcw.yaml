@@ -1,0 +1,95 @@
+substitutions:
+  hostname: testrgbcw # lowercase, no spaces
+  idname: testrgbcw
+  device_name: ${hostname}
+  friendly_name: ${hostname}
+
+esphome:
+  name: ${hostname}
+  platformio_options:
+    board_build.f_cpu: 160000000L
+
+esp8266:
+  board: esp01_1m
+
+# Enable logging
+logger:
+  level: VERY_VERBOSE
+
+# Enable Home Assistant API
+api:
+  password: !secret esphome_api_password
+  reboot_timeout: 0s
+
+ota:
+  password: !secret esphome_ota_password
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  fast_connect: true
+  reboot_timeout: 15s
+  
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: ${hostname}
+    password: !secret esphome_ap_password
+    
+# Device Specific Config
+
+time:
+  - platform: homeassistant
+    id: homeassistant_time
+
+external_components:
+  - source:
+      type: git
+      url: https://github.com/ssieb/custom_components
+    components: [ sm2235 ]
+
+i2c:
+
+sm2235:
+  - id: my_sm
+    sda: 4
+    scl: 5
+    rgb_current: 12
+    cw_current: 25
+
+output:
+  - platform: sm2235
+    id: red
+    channel: 0
+  - platform: sm2235
+    id: green
+    channel: 1
+  - platform: sm2235
+    id: blue
+    channel: 2
+  - platform: sm2235
+    id: coolwhite
+    channel: 3
+  - platform: sm2235
+    id: warmwhite
+    channel: 4
+
+light:
+  - platform: rgbww
+    name: My Light
+    red: red
+    green: green
+    blue: blue
+    cold_white: coolwhite
+    warm_white: warmwhite
+
+text_sensor:
+  - platform: wifi_info
+    ip_address:
+      name: ESP IP Address
+      id: espip
+    ssid:
+      name: ESP Connected SSID
+      id: espssid
+    mac_address:
+      name: ESP Mac Wifi Address
+      id: espmac   
