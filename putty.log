@@ -1,0 +1,367 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.08.02 12:15:10 =~=~=~=~=~=~=~=~=~=~=~=
+tate: 2 -> 0 (2)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Auth Expired'[0m
+wifi evt: 1
+STA disconnect: 2
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-78[0m
+wifi evt: 7
+state: 2 -> 0 (2)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Auth Expired'[0m
+wifi evt: 1
+STA disconnect: 2
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=A4:34:D9:9E:D4:B4 RSSI=-65[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=1C:9E:CC:57:BA:BF RSSI=-85[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=A4:34:D9:9E:D4:B4 RSSI=-74[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=3E:AB:33:0A:B0:7D RSSI=-83[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=3E:AB:33:0A:B0:7D RSSI=-81[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=3E:AB:33:0A:B0:7D RSSI=-83[0m
+wifi evt: 7
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+state: 2 -> 0 (2)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Auth Expired'[0m
+wifi evt: 1
+STA disconnect: 2
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=5C:7D:7D:84:10:9B RSSI=-78[0m
+wifi evt: 7
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=1C:5F:2B:F7:C7:5B RSSI=-86[0m
+wifi evt: 7
+state: 2 -> 0 (2)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Auth Expired'[0m
+wifi evt: 1
+STA disconnect: 2
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-78[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-77[0m
+wifi evt: 7
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+state: 2 -> 0 (2)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Auth Expired'[0m
+wifi evt: 1
+STA disconnect: 2
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 0 (4)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Association Expired'[0m
+wifi evt: 1
+STA disconnect: 4
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=98:9D:5D:D4:BB:A9 RSSI=-70[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=5C:7D:7D:84:10:9B RSSI=-74[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=5C:7D:7D:84:10:9B RSSI=-74[0m
+wifi evt: 7
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 19
+cnt 
+
+connected with IOT-Home, channel 6
+dhcp client start...
+[0;37m[V][wifi_esp8266:468]: Event: Connected ssid='IOT-Home' bssid=D6:21:F9:65:6F:6E channel=6[0m
+wifi evt: 0
+[0;38m[VV][scheduler:195]: Running interval '' with interval=60000 last_execution=108530 (now=168530)[0m
+[0;33m[W][wifi:530]: Timeout while connecting to WiFi.[0m
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+state: 5 -> 0 (0)
+rm 0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Association Leave'[0m
+wifi evt: 1
+STA disconnect: 8
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+scandone
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-78[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-78[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=98:9D:5D:D4:BB:A9 RSSI=-71[0m
+wifi evt: 7
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=5C:7D:7D:84:10:9B RSSI=-75[0m
+wifi evt: 7
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+state: 2 -> 0 (2)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Auth Expired'[0m
+wifi evt: 1
+STA disconnect: 2
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+state: 2 -> 0 (2)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Auth Expired'[0m
+wifi evt: 1
+STA disconnect: 2
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-77[0m
+wifi evt: 7
+state: 2 -> 3 (0)
+state: 3 -> 0 (4)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Association Expired'[0m
+wifi evt: 1
+STA disconnect: 4
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=98:9D:5D:D4:BB:A9 RSSI=-70[0m
+wifi evt: 7
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+state: 2 -> 0 (2)
+[0;33m[W][wifi_esp8266:482]: Event: Disconnected ssid='IOT-Home' bssid=[5mD6:21:F9:65:6F:6E[6m reason='Auth Expired'[0m
+wifi evt: 1
+STA disconnect: 2
+[0;33m[W][wifi:536]: Error while connecting to network.[0m
+[0;33m[W][wifi:572]: Restarting WiFi adapter...[0m
+[0;37m[V][wifi_esp8266:060]: Disabling STA.[0m
+del if0
+mode : softAP(42:91:51:45:cd:6d)
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP+STA new=AP[0m
+wifi evt: 8
+[0;38m[VV][wifi_esp8266:528]: Event: AP receive Probe Request MAC=90:58:51:B5:40:E2 RSSI=-82[0m
+wifi evt: 7
+[0;32m[I][wifi:248]: WiFi Connecting to 'IOT-Home'...[0m
+[0;37m[V][wifi:250]: Connection Params:[0m
+[0;37m[V][wifi:251]:   SSID: 'IOT-Home'[0m
+[0;37m[V][wifi:256]:   BSSID: Not Set[0m
+[0;37m[V][wifi:274]:   Password: [5m'watchingsomestrangeactivity'[6m[0m
+[0;37m[V][wifi:281]:   Channel: Not Set[0m
+[0;37m[V][wifi:288]:   Using DHCP IP[0m
+[0;37m[V][wifi:290]:   Hidden: NO[0m
+[0;37m[V][wifi_esp8266:058]: Enabling STA.[0m
+mode : sta(40:91:51:45:cd:6d) + softAP(42:91:51:45:cd:6d)
+add if0
+[0;33m[W][wifi_esp8266:212]: wifi_apply_hostname_(testrgbcw): lwIP error -16 on interface st (index 0)[0m
+[0;37m[V][wifi_esp8266:534]: Event: Changed Mode old=AP new=AP+STA[0m
+wifi evt: 8
+scandone
+state: 0 -> 2 (b0)
+[0;38m[VV][scheduler:195]: Running interval '' with interval=60000 last_execution=168530 (now=228611)[0m
+state: 2 -> 3 (0)
